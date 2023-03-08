@@ -13,6 +13,8 @@
 \usepackage{hyperref}
 \usepackage{fontspec}
 
+\setlength{\headheight}{15pt}
+\setlength{\topmargin}{-5pt}
 \geometry{
 	headheight=-15pt,
 	margin=50pt,
@@ -66,25 +68,9 @@
 \thispagestyle{title}
 \vspace*{25pt}
 
-
-\section*{Technical Skills}
-\subsection*{Languages:} Python, C\#, JavaScript, TypeScript, Rust
-
-\subsection*{Markup:} {\LaTeX}, HTML/CSS, Markdown
-
-\subsection*{Libraries:} Flask, Electron, ...
-\subsection*{Other Tools:} Git, Docker, Linux/Unix, SQL
-
-\section*{Experience}
-\lipsum[1]
-
-\newpage
-
-\section*{Education}
-\lipsum[1]
-
-\section*{Projects}
-\lipsum[1]
-
+\input{sections/skills.tex}
+\input{sections/experience.tex}
+\input{sections/education.tex}
+\input{sections/projects.tex}
 
 \end{document}
