@@ -1,0 +1,81 @@
+% config file, do not touch unless you know what you are doing
+
+% Set document class
+\documentclass[11pt]{article}
+
+% Import all relevant packages
+\usepackage{inputenc}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{minted}
+\usepackage[round,colon]{natbib}
+\usepackage{hyperref}
+\usepackage{fontspec}
+
+% Override necessary commands
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\maketitle}{\thispagestyle{title}\vspace*{35pt}}
+
+% Oage geometry config
+\setlength{\headheight}{15pt}
+\setlength{\topmargin}{-5pt}
+\geometry{
+	headheight=-15pt,
+	margin=50pt,
+}
+
+% Clear headers and footers
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+
+% Set custom title style
+\fancypagestyle{title} {
+\fancyhead[OR]{\footnotesize{
+	\cvPhone {\fontspec{Symbola}\symbol{"260E}}\\
+	\href{mailto://\cvEmail}{\cvEmail} {\fontspec{Symbola}\symbol{"2709}}
+}}
+\fancyhead[OC]{
+	\huge{\textbf{\cvName}} \\
+	\large{\cvLocation} 
+}
+\fancyhead[OL]{\footnotesize{
+	\href{https://\cvWebsite}{\cvWebsite}\\
+	\href{https://github.com/\cvGithub}{www.github.com/\cvGithub}
+}}
+}
+
+% Formatting overrides:
+
+\titleformat{\section}
+{\LARGE\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+\titlespacing*{\section}
+{0pt}
+{5pt}
+{15pt}
+
+\titleformat{\subsection}[runin]
+{\bfseries\large}
+{}
+{0em}
+{}
+
+\titlespacing*{\subsection}
+{5pt}
+{3pt}
+{5pt}
+
+
+
+
+
+

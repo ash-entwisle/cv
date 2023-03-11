@@ -1,72 +1,20 @@
-\documentclass[11pt]{article}
 
-\usepackage{inputenc}
-\usepackage{titlesec}
-\usepackage{geometry}
-\usepackage{fancyhdr}
-\usepackage{lipsum}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{listings}
-\usepackage{minted}
-\usepackage[round,colon]{natbib}
-\usepackage{hyperref}
-\usepackage{fontspec}
+% Edit details here
+\newcommand{\cvName}{Your Name}
+\newcommand{\cvLocation}{your city/county, your country}
+\newcommand{\cvPhone}{+cc your phoneno}
+\newcommand{\cvEmail}{name@youremail.com}
+\newcommand{\cvWebsite}{www.yourwebsite.com}
+\newcommand{\cvGithub}{your-gh-handle}
 
-\setlength{\headheight}{15pt}
-\setlength{\topmargin}{-5pt}
-\geometry{
-	headheight=-15pt,
-	margin=50pt,
-}
-
-\pagestyle{fancy}
-\fancyhead{}
-\fancyfoot{}
-
-\fancypagestyle{title} {
-\fancyhead[OR]{\footnotesize{
-	+44 7986 850179 {\fontspec{Symbola}\symbol{"260E}}\\
-	\href{mailto://ash.entwisle@protonmail.com}{ash.entwisle@protonmail.com} {\fontspec{Symbola}\symbol{"2709}}
-}}
-\fancyhead[OC]{
-	\huge{\textbf{Ash Entwisle}} \\
-	\large{Hull, UK} 
-}
-\fancyhead[OL]{\footnotesize{
-	\href{https://ashentwisle.com}{www.ashentwisle.com}\\
-	\href{https://github.com/ash-entwisle}{www.github.com/ash-entwisle}
-}}
-}
-
-\renewcommand{\headrulewidth}{0pt}
-
-\titleformat{\section}
-{\LARGE\bfseries}
-{}
-{0em}
-{}[\titlerule]
-
-\titlespacing*{\section}
-{0pt}
-{5pt}
-{15pt}
-
-\titleformat{\subsection}[runin]
-{\bfseries\large}
-{}
-{0em}
-{}
-
-\titlespacing*{\subsection}
-{10pt}
-{10pt}
-{5pt}
+% Imports custom page rules
+\input{config/config.tex}
 
 \begin{document}
 
-\thispagestyle{title}
-\vspace*{35pt}
+% Makes title
+\maketitle
+
 
 \input{sections/skills.tex}
 \input{sections/experience.tex}
