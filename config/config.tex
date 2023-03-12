@@ -1,7 +1,7 @@
 % config file, do not touch unless you know what you are doing
 
 % Set document class
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 
 % Import all relevant packages
 \usepackage{inputenc}
@@ -16,6 +16,8 @@
 \usepackage[round,colon]{natbib}
 \usepackage{hyperref}
 \usepackage{fontspec}
+\usepackage{enumerate}
+
 
 % Override necessary commands
 \renewcommand{\headrulewidth}{0pt}
@@ -37,7 +39,7 @@
 % Set custom title style
 \fancypagestyle{title} {
 \fancyhead[OR]{\footnotesize{
-	\cvPhone {\fontspec{Symbola}\symbol{"260E}}\\
+	\cvPhone \: {\fontspec{Symbola}\symbol{"260E}}\\
 	\href{mailto://\cvEmail}{\cvEmail} {\fontspec{Symbola}\symbol{"2709}}
 }}
 \fancyhead[OC]{
@@ -53,7 +55,7 @@
 % Formatting overrides:
 
 \titleformat{\section}
-{\LARGE\bfseries}
+{\Large\bfseries}
 {}
 {0em}
 {}[\titlerule]
@@ -64,14 +66,14 @@
 {15pt}
 
 \titleformat{\subsection}[runin]
-{\bfseries\large}
+{\bfseries\normalsize}
 {}
 {0em}
 {}
 
 \titlespacing*{\subsection}
-{5pt}
-{3pt}
+{0pt}
+{0pt}
 {5pt}
 
 
