@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.30)  20 MAR 2023 14:07
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.30)  22 MAR 2023 11:51
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -625,17 +625,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 6.
 ) (./sections/experience.tex)
 (./sections/education.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--1
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
@@ -686,11 +681,11 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: CF60C78E5DCEDD82420E1DA61E4AAB0F;2201.
  ) 
 Here is how much of TeX's memory you used:
- 16975 strings out of 476179
- 336531 string characters out of 5809544
- 831813 words of memory out of 5000000
- 37480 multiletter control sequences out of 15000+600000
- 472475 words of font info for 53 fonts, out of 8000000 for 9000
+ 16978 strings out of 476179
+ 336617 string characters out of 5809544
+ 832815 words of memory out of 5000000
+ 37481 multiletter control sequences out of 15000+600000
+ 472483 words of font info for 54 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  80i,12n,86p,399b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
