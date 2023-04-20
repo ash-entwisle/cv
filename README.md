@@ -14,4 +14,3 @@ To build this document, first cd into the root of this repo:
 - on \*nix, you run: `sh build.bat`
 - on windows, you run: `build.bat`
 
-this is a test
