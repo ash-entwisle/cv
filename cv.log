@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.1)  11 JAN 2024 12:50
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.1)  12 MAR 2024 16:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -610,32 +610,28 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 13.
  (./sections/skills.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 6.
+(Font)              <12> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
+(Font)              <8> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
+(Font)              <6> on input line 8.
 ) (./sections/experience.tex)
 (./sections/education.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 ) (./sections/projects.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--7
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 8--23
-
- []
-
 
 Package fontspec Info: Could not resolve font "Symbola/BI" (it probably
 (fontspec)             doesn't exist).
@@ -660,6 +656,7 @@ Package fontspec Info: Font family 'Symbola(0)' created for font 'Symbola'
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
+
 Package fancyhdr Warning: \headheight is too small (-15.0pt): 
 (fancyhdr)                Make it at least 40.81606pt, for example:
 (fancyhdr)                \setlength{\headheight}{40.81606pt}.
@@ -673,17 +670,88 @@ Overfull \vbox (15.0pt too high) has occurred while \output is active []
  [1
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 42--24
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (-15.0pt): 
+(fancyhdr)                Make it at least 0.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{0.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-15.0pt}.
+
+
+Overfull \vbox (15.0pt too high) has occurred while \output is active []
+
+ [2]
 (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: A2F1C06AC450FB52FEE876C45215033F;2294.
+(rerunfilecheck)             Checksum: 711A1626BBBB2E52A9E39D2447FFCE04;4253.
  ) 
 Here is how much of TeX's memory you used:
- 17086 strings out of 476683
- 339707 string characters out of 5804048
- 1861018 words of memory out of 5000000
- 37082 multiletter control sequences out of 15000+600000
+ 17093 strings out of 476683
+ 339806 string characters out of 5804048
+ 1858018 words of memory out of 5000000
+ 37089 multiletter control sequences out of 15000+600000
  515511 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 80i,12n,86p,399b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,12n,88p,413b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv.pdf (1 page).
+Output written on cv.pdf (2 pages).
