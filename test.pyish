@@ -1,0 +1,56 @@
+# Alarm 
+tempo = 1
+space = 0.05
+
+forever
+  sound 262
+  delay (1.5 * tempo) - space
+  sound 0
+  delay space
+
+  sound 262
+  delay (1.5 * tempo) - space
+  sound 0
+  delay space
+
+  sound 587
+  delay (3 * tempo) - space
+  sound 0
+  delay space
+
+  sound 440
+  delay (3.75 * tempo) - space
+  sound 0
+  delay space
+
+  sound 415
+  delay (3 * tempo) - space
+  sound 0
+  delay space
+
+  sound 392
+  delay (2.5 * tempo) - space
+  sound 0
+  delay space
+
+  sound 349
+  delay (3 * tempo) - space
+  sound 0
+  delay space
+
+  sound 294
+  delay (1.5 * tempo) - space
+  sound 0
+  delay space
+
+  sound 349
+  delay (1.5 * tempo) - space
+  sound 0
+  delay space
+
+  sound 392
+  delay (1.5 * tempo) - space
+  sound 0
+  delay space
+
+  delay 50
