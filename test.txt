@@ -1,0 +1,27 @@
+The Artificial Automaton Athletics Association (Quad-A) is at it again, 
+to compete with postseason baseball they are developing a Robot Baseball competition. 
+Games are composed of a series of independent at-bats 
+in which the batter is trying to maximize expected score 
+and the pitcher is trying to minimize expected score.
+
+An at-bat is a series of pitches with a running count of balls and strikes, 
+both starting at zero. 
+For each pitch, the pitcher decides whether to throw a ball or strike, 
+and the batter decides whether to wait or swing; 
+these decisions are made secretly and simultaneously. 
+The results of these choices are as follows.
+
+    If the pitcher throws a ball and the batter waits, the count of balls is incremented by 1.
+    If the pitcher throws a strike and the batter waits, the count of strikes is incremented by 1.
+    If the pitcher throws a ball and the batter swings, the count of strikes is incremented by 1.
+    If the pitcher throws a strike and the batter swings, with probability p the batter hits a home run1 and with probability 1-p the count of strikes is incremented by 1.
+
+An at-bat ends when either:
+
+    The count of balls reaches 4, in which case the batter receives 1 point.
+    The count of strikes reaches 3, in which case the batter receives 0 points.
+    The batter hits a home run, in which case the batter receives 4 points.
+
+By varying the size of the strike zone, 
+Quad-A can adjust the value p, 
+the probability a pitched strike that is swung at results in a home run. They have found that viewers are most excited by at-bats that reach a full count, that is, the at-bats that reach the state of three balls and two strikes. Let q be the probability of at-bats reaching full count; q is dependent on p. Assume the batter and pitcher are both using optimal mixed strategies and Quad-A has chosen the p that maximizes q. Find this q, the maximal probability at-bats reach full count, to ten decimal places.
